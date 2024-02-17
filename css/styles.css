@@ -1,0 +1,23 @@
+.text-box h3:nth-of-type(odd) {
+  color: #ffc0cb; /* Пофарбуйте непарні h3 у рожевий колір */
+}
+
+.text-box p:not(#greycol):not(.yellow) {
+  /* Залишити всі елементи p, крім тих, які мають id "greycol" або клас "yellow", без змін */
+}
+
+.text-box #greycol {
+  color: #808080; /* Пофарбуйте елемент з id "greycol" у сірий колір */
+}
+
+.text-box div p {
+  color: #f00; /* Пофарбуйте всі елементи p всередині div у червоний колір */
+}
+
+.text-box p.green{
+  color: #008000; /* Пофарбуйте елементи p з класом "green" у зелений колір */
+}
+
+.text-box .yellow {
+  color: #ffff00; /* Пофарбуйте елементи з класом "yellow" у жовтий колір */
+}
